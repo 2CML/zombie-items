@@ -1,0 +1,54 @@
+{
+	"model" : {
+		"type": "range_dispatch",
+		"property": "custom_model_data",
+		"entries": [
+			{
+				"threshold": 761,
+				"model": {
+					"type": "model",
+					"model": "zombie_items:hats/zombie_arrow"
+				}
+			},
+			{
+				"threshold": 762,
+				"model": {
+					"type": "model",
+					"model": "zombie_items:hats/zombie_axe"
+				}
+			},
+			{
+				"threshold": 763,
+				"model": {
+					"type": "model",
+					"model": "zombie_items:hats/zombie_brain"
+				}
+			},
+			{
+				"threshold": 764,
+				"model": {
+					"type": "model",
+					"model": "zombie_items:hats/zombie_eye"
+				}
+			},
+			{
+				"threshold": 765,
+				"model": {
+					"type": "model",
+					"model": "zombie_items:hats/zombie_jaw"
+				}
+			},
+			{
+				"threshold": 766,
+				"model": {
+					"type": "model",
+					"model": "zombie_items:hats/zombie_sword"
+				}
+			}
+		],
+		"fallback": {
+				"type": "minecraft:model",
+				"model": "minecraft:item/flint"
+		}
+	}
+}
